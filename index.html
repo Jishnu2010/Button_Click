@@ -1,0 +1,9 @@
+<button onclick="click_check()"> Click me </button>
+<p id="p"> Number of times the button was clicked: 0 </p>
+<script> 
+var clicks = 0
+function click_check(){
+clicks = clicks + 1
+document.getElementById('p').innerHTML = "Number of times the button was clicked: " + clicks
+}
+ </script>
